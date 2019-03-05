@@ -1,10 +1,10 @@
 
-AVRASM ver. 2.2.7  C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A\main.asm Mon Mar 04 23:01:27 2019
+AVRASM ver. 2.2.7  C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT1A\main.asm Mon Mar 04 23:45:41 2019
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
-C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A\main.asm(3): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328pDEF.INC'
+C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT1A\main.asm(3): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328pDEF.INC'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
-C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A\main.asm(3): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328pDEF.INC'
+C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT1A\main.asm(3): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328pDEF.INC'
                                  
                                  ;DA2AT1A
                                  
@@ -1081,8 +1081,7 @@ C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A\main.asm(3): Inclu
                                  body_off:
 000025 31d1                       CPI R29,0x11         ;check to see if upper timer bits have reached the desired value
 000026 f3bc                       BRLT delay_off       ;if not, recheck the lower bits
-000027 9508                       RET                  ;once the timer reached the desired value, toggle the LED 
-                                 
+000027 9508                       RET                  ;once the timer reached the desired value, toggle the LED
                                  
 
 

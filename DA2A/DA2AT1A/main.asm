@@ -50,6 +50,5 @@ delay_off:
 body_off:
  CPI R29,0x11         ;check to see if upper timer bits have reached the desired value
  BRLT delay_off       ;if not, recheck the lower bits
- RET                  ;once the timer reached the desired value, toggle the LED 
-
+ RET                  ;once the timer reached the desired value, toggle the LED
 

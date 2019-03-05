@@ -84,17 +84,17 @@ int main(void)
 	DDRC &= (0<<2);                    //sets PC2 to input
   84:	87 b1       	in	r24, 0x07	; 7
   86:	17 b8       	out	0x07, r1	; 7
-	PORTC |= (0<<2);                   //sets PC2 to low 0 
+	PORTC |= (0<<2);                   //sets PC2 to low 0
   88:	88 b1       	in	r24, 0x08	; 8
   8a:	88 b9       	out	0x08, r24	; 8
 
-	while (1)                          //while loop continously checking
+	while (1)                          //while loop continuously checking
 	{
 		if (!(PINC & (1 << PINC2)))    //if pinc2 was pressed then released
   8c:	32 99       	sbic	0x06, 2	; 6
   8e:	0b c0       	rjmp	.+22     	; 0xa6 <main+0x26>
 		{
-	 		PORTB &= ~(1<<2);          //then portb2 led is on
+			PORTB &= ~(1<<2);          //then portb2 led is on
   90:	2a 98       	cbi	0x05, 2	; 5
 	#else
 		//round up by default
@@ -116,7 +116,7 @@ int main(void)
 		}
 		else
 		{
-			PORTB |= (1<<2);           //toggles pb2 led 
+			PORTB |= (1<<2);           //toggles pb2 led
   a6:	2a 9a       	sbi	0x05, 2	; 5
   a8:	f1 cf       	rjmp	.-30     	; 0x8c <main+0xc>
 

@@ -1,18 +1,18 @@
 <ASSEMBLER_INFO>
  <VERSION>2.2.7</VERSION>
  <DEVICE>"ATmega328P"</DEVICE>
- <WORKING_DIR>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\Debug</WORKING_DIR>
+ <WORKING_DIR>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\Debug</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
   <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\main.asm</SOURCE_FILE>
+ <SOURCE_FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\main.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
  </INCLUDED_FILES>
  <OBJECT_FILES>
-  <FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\Debug\DA2AT2A.obj</FILE>
+  <FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\Debug\DA2AT2A.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
   <FILE>DA2AT2A.hex</FILE>
@@ -22,9 +22,9 @@
   <FILE>DA2AT2A.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <check><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\main.asm</FILE><LINE>14</LINE></check>
-  <waiting><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\main.asm</FILE><LINE>24</LINE></waiting>
-  <delay_on><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\main.asm</FILE><LINE>29</LINE></delay_on>
-  <body_on><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\main.asm</FILE><LINE>36</LINE></body_on>
+  <check><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\main.asm</FILE><LINE>14</LINE></check>
+  <waiting><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\main.asm</FILE><LINE>24</LINE></waiting>
+  <delay_on><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\main.asm</FILE><LINE>29</LINE></delay_on>
+  <body_on><FILE>C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\main.asm</FILE><LINE>36</LINE></body_on>
  </LABELS>
 </ASSEMBLER_INFO>

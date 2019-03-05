@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A_2A\main.asm Mon Mar 04 23:02:44 2019
+AVRASM ver. 2.2.7  C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2AT2A\main.asm Mon Mar 04 23:47:36 2019
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
@@ -1022,6 +1022,7 @@ AVRASM ver. 2.2.7  C:\Users\Jett\Documents\Atmel Studio\7.0\Homework 3\DA2A\DA2A
                                  body_on:
 00001a 34dc                       CPI R29,0x4C            ;check to see if upper timer bits have reached the desired value
 00001b f3bc                       BRLT delay_on           ;if not, recheck the lower bits
+00001c 9508                       RET                     ;once the timer reached the desired value, toggle the LED
 
 
 RESOURCE USE INFORMATION
